@@ -36,7 +36,7 @@ const restart = function () {
   playing = true;
   currentScore = 0;
   scores[0] = 0;
-  scores[1] = 1;
+  scores[1] = 0;
   document.querySelector(`.current-score`).textContent = 0;
   document.querySelector(`.player`).classList.remove("player--winner");
   document.querySelector(`.player--0`).classList.add("player--active");
